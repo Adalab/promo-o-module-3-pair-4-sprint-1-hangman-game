@@ -11,4 +11,7 @@ Módulo 3: React
 
 - [x] Repositorio en Adalab: promo-o-module-3-pair-4-sprint-1-hangman-game
 - [x] Nuevo proyecto de React con react-starter-kit
-- [ ] Migrar proyecto a React
+- [x] Migrar proyecto a React
+- [x] Ejercicio: el muñeco
+- [x] Ejercicio: controlar el input
+- [x] Ejercicio: letras permitidas

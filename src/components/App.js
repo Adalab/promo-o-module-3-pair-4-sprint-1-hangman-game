@@ -1,15 +1,19 @@
 import '../styles/App.scss';
-import {useState} from 'react';
+import { useState } from 'react';
 
 function App() {
-
-  const [numberOfErrors, setnumberOfErrors] = useState (0);
+  const [numberOfErrors, setNumberOfErrors] = useState(0);
+  const [lastLetter, setLastLetter] = useState('');
 
   const handleClickBtn = () => {
-    setnumberOfErrors (numberOfErrors+1);
-    console.log (numberOfErrors);
-  }
- 
+    setNumberOfErrors(numberOfErrors + 1);
+  };
+
+  const handleInput = (event) => {
+    const inputValue = event.target.value;
+    setLastLetter(inputValue.match(/[a-z]/gi));
+  };
+
   return (
     <div className="page">
       <header>
@@ -43,7 +47,9 @@ function App() {
             </ul>
           </div>
           <form className="form">
-            <label className="title" htmlFor="last-letter">Escribe una letra:</label>
+            <label className="title" htmlFor="last-letter">
+              Escribe una letra:
+            </label>
             <input
               autoComplete="off"
               className="form__input"
@@ -51,10 +57,12 @@ function App() {
               type="text"
               name="last-letter"
               id="last-letter"
+              value={lastLetter ? lastLetter : ''}
+              onChange={handleInput}
             />
           </form>
         </section>
-        <section className={"dummy error-" + numberOfErrors}>
+        <section className={'dummy error-' + numberOfErrors}>
           <span className="error-13 eye"></span>
           <span className="error-12 eye"></span>
           <span className="error-11 line"></span>
@@ -70,9 +78,8 @@ function App() {
           <span className="error-2 line"></span>
           <span className="error-1 line"></span>
         </section>
-        <button onClick={handleClickBtn}>Incrementar</button>
-
       </main>
+      <button onClick={handleClickBtn}>Incrementar</button>
     </div>
   );
 }
