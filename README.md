@@ -19,7 +19,7 @@ Módulo 3: React
 - [x] Ejercicio: letras permitidas
 - [x] Ejercicio: pintar los guiones de la solución (fase 1)
 - [x] Ejercicio: modificar un array del estado
-- [ ] Ejercicio: pintar los guiones de la solución (fase 2)
-- [ ] Ejercicio: pintar las letras falladas
-- [ ] Ejercicio: pintar el muñeco
+- [x] Ejercicio: pintar los guiones de la solución (fase 2)
+- [x] Ejercicio: pintar las letras falladas
+- [x] Ejercicio: pintar el muñeco
 - [ ] Ejercicio: obtener una palabra aleatoria de un API
