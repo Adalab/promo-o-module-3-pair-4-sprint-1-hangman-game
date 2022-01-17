@@ -11,7 +11,7 @@ Módulo 3: React
 
 ## El juego del ahorcado
 
-- [x] Crear repositorio: promo-o-module-3-pair-4-sprint-1-hangman-game
+- [x] Crear repositorio: `promo-o-module-3-pair-4-sprint-1-hangman-game`
 - [x] Crear nuevo proyecto de React con react-starter-kit
 - [x] Migrar proyecto a React
 - [x] Ejercicio: el muñeco
@@ -22,4 +22,4 @@ Módulo 3: React
 - [x] Ejercicio: pintar los guiones de la solución (fase 2)
 - [x] Ejercicio: pintar las letras falladas
 - [x] Ejercicio: pintar el muñeco
-- [ ] Ejercicio: obtener una palabra aleatoria de un API
+- [x] Ejercicio: obtener una palabra aleatoria de un API

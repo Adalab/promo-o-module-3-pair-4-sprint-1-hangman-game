@@ -1,10 +1,17 @@
 import '../styles/App.scss';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import callToApi from '../services/api';
 
 function App() {
   const [lastLetter, setLastLetter] = useState('');
-  const [word, setWord] = useState('katakroker');
+  const [word, setWord] = useState('');
   const [userLetters, setUserLetters] = useState([]);
+
+  useEffect(() => {
+    callToApi().then((response) => {
+      setWord(response);
+    });
+  }, []);
 
   const handleInput = (event) => {
     let inputValue = event.target.value;
