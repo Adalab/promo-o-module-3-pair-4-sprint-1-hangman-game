@@ -23,3 +23,7 @@ Módulo 3: React
 - [x] Ejercicio: pintar las letras falladas
 - [x] Ejercicio: pintar el muñeco
 - [x] Ejercicio: obtener una palabra aleatoria de un API
+
+---
+
+Happy coding!
