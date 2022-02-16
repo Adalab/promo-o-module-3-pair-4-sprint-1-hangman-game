@@ -2,7 +2,7 @@ Módulo 3: React
 
 # Ejercicio de pair programming
 
-**URL del ejercicio: [Hangman Game](http://beta.adalab.es/promo-o-module-3-pair-4-sprint-1-hangman-game/)**
+**URL del ejercicio: [Hangman Game](http://mararochafernandez.github.io/promo-o-module-3-pair-4-sprint-1-hangman-game/)**
 
 ## Pareja 4 / Sprint 1
 
